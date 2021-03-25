@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <title>Zakup</title>
+        <meta name="description" content="Oferty wakacyjne">
+        <meta name="keywords" content="wakacje, podróże, lato">
+        <meta name="author" content="Małgorzata Chwil">
+        <link rel="icon" href="img/balon.png">
+
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet"/>
+
+    </head>
+
+    <body>
+
+        <section class="biuro">
+
+            <nav class="navbar navbar-expand-lg navbar-dark bg-nav fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="index.html"><img src="img/balon.png" style="height: 40px" alt="logo"> Biuro podróży</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-my-own-color" href="index.html">Strona główna</a>
+                                <span class="sr-only">(current)</span>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="formularz.html">Zakup</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-my-own-color" href="koszyk.html">Koszyk</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-my-own-color" href="oferta.html">Oferta</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <header class="bg-slider py-5 mb-5">
+                <div class="container h-100">
+                    <div class="row h-100 align-items-center">
+                        <div class="col-lg-12">
+                            <div id="przykladowaKaruzela2" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block w-100" src="img/obraz1.jpg" style="height: 350px" alt="Pierwszy slajd">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="img/obraz2.jpg" style="height: 350px" alt="Drugi slajd">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="img/obraz3.png" style="height: 350px" alt="Trzeci slajd">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="img/obraz4.png" style="height: 350px" alt="Drugi slajd">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block w-100" src="img/obraz5.png" style="height: 350px" alt="Drugi slajd">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#przykladowaKaruzela2" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Poprzedni</span>
+                                </a>
+                                <a class="carousel-control-next" href="#przykladowaKaruzela2" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Następny</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 mb-5">
+                        <h2>Formularz zakupu</h2>
+                        <form onsubmit="return zapisz()">
+                            <div class="form-group row">
+                                <label class="col-4 col-form-label" for="nazwisko">Imię i nazwisko:</label>
+                                <div class="col-8">
+                                    <input id="nazwisko" name="nazwisko" placeholder="Imię i nazwisko" class="form-control" title="Podaj imie i nazwisko">
+                                    <div id="nazwisko_error" class="text-danger"></div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="lu" class="col-4 col-form-label">Liczba uczestników:</label>
+                                <div class="col-8">
+                                    <input id="lu" name="lu" placeholder="1" class="form-control" title="Podaj liczbe uczestnikow">
+                                    <div id="lu_error" class="text-danger"></div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label for="wycieczka" class="col-4 col-form-label">Wybierz wycieczke:</label>
+                                <div class="col-8">
+                                    <select id="wycieczka" name="wycieczka" class="custom-select" title="Wybierz wycieczke">
+                                        <option value="Parki Narodowe USA">Parki Narodowe USA</option>
+                                        <option value="Szlakiem Draculi">Szlakiem Draculi</option>
+                                        <option value="Wyprawa po fiordach">Wyprawa po fiordach</option>
+                                        <option value="Śladami Faraona">Śladami Faraona</option>
+                                        <option value="Kraj kwitnącej wiśni">Kraj kwitnącej wiśni</option>
+                                        <option value="Wśród kangurów">Wśród kangurów</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-4 col-form-label" for="data">Data Wyjazdu:</label>
+                                <div class="col-8">
+                                    <input id="data" name="data" type="date" class="form-control" title="Wybierz date (nie wczesniejsza niz miesiac od daty dzisiejszej)">
+                                    <div id="data_error" class="text-danger"></div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-4">Wyżywienie:</label>
+                                <div class="col-8">
+                                    <div class="custom-control custom-checkbox custom-control-inline">
+                                        <input name="wyzywienie" id="wyzywienie_0" type="checkbox" class="custom-control-input" value="sniadanie">
+                                        <label for="wyzywienie_0" class="custom-control-label">Śniadanie</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox custom-control-inline">
+                                        <input name="wyzywienie" id="wyzywienie_1" type="checkbox" class="custom-control-input" value="obiad">
+                                        <label for="wyzywienie_1" class="custom-control-label">Obiad</label>
+                                    </div>
+                                    <div class="custom-control custom-checkbox custom-control-inline">
+                                        <input name="wyzywienie" id="wyzywienie_2" type="checkbox" class="custom-control-input" value="kolacja">
+                                        <label for="wyzywienie_2" class="custom-control-label">Kolacja</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-4">Czas wycieczki (dni):</label>
+                                <div class="col-8">
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input name="dni" id="dni_0" type="radio" class="custom-control-input" value="7">
+                                        <label for="dni_0" class="custom-control-label">7</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input name="dni" id="dni_1" type="radio" class="custom-control-input" value="14">
+                                        <label for="dni_1" class="custom-control-label">14</label>
+                                    </div>
+                                    <div class="custom-control custom-radio custom-control-inline">
+                                        <input name="dni" id="dni_2" type="radio" class="custom-control-input" value="21">
+                                        <label for="dni_2" class="custom-control-label">21</label>
+                                    </div>
+                                    <div id="dni_error" class="text-danger"></div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-4">Regulamin</label>
+                                <div class="col-8">
+                                    <div class="custom-control custom-checkbox custom-control-inline">
+                                        <input name="regulamin" id="regulamin" type="checkbox" class="custom-control-input">
+                                        <label for="regulamin" class="custom-control-label">Oświadczam, że zapoznałem/am się z Regulaminem Wycieczki i akceptuję wszystkie warunki</label>
+                                    </div>
+                                    <div id="regulamin_error" class="text-danger"></div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <label class="col-4 col-form-label" for="koszt">Koszt</label>
+                                <div class="col-8">
+                                    <input id="koszt" name="koszt" disabled="disabled" type="text" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="offset-4 col-8 d-inline w-100">
+                                    <button id="button1" onclick="return pokazKoszt()" class="btn btn-primary bg-button col-lg-4 w-100">Oblicz cene</button>
+                                    <input type="submit" value="Kup" class="btn btn-primary bg-button col-lg-4 w-100"/>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <h2>Kontakt</h2>
+                        <hr>
+                        <address>
+                            <strong>Biuro podróży</strong>
+                            <br>ul. Magnoliowa 32A
+                            <br>Warszawa 00-009
+                            <br>
+                        </address>
+                        <address>
+                            <abbr title="Phone">Telefon:</abbr>
+                            +48 598 654 478
+                            <br>
+                            <abbr title="Email">E-mail:</abbr>
+                            <a href="mailto:#">biuro.podrozy@gmail.com</a>
+                        </address>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="img/regulamin.jpg" alt="obrazek" style="height: 250px">
+                            <div class="card-body">
+                                <h4 class="card-title">Regulamin</h4>
+                                <p class="card-text">Zanim przystąpisz do zakupu wycieczki zapoznaj się z regulaminem. Wymagane jest zaakceptowanie regulaminu.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="regulamin.html" class="btn btn-primary bg-button">Zapoznaj się</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="img/oferta.png" style="height: 250px" alt="obrazek">
+                            <div class="card-body">
+                                <h4 class="card-title">Oferta</h4>
+                                <p class="card-text">Zapoznaj się z organizowanymi przez nas wycieczkami.</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="oferta.html" class="btn btn-primary bg-button">Znajdź</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-5">
+                        <div class="card h-100">
+                            <img class="card-img-top" src="img/zakup.jpg" style="height: 250px" alt="obrazek">
+                            <div class="card-body">
+                                <h4 class="card-title">Zakup</h4>
+                                <p class="card-text">Jeśli jesteś już zdecydowany gdzie chcesz się udać po prostu kliknij!</p>
+                            </div>
+                            <div class="card-footer">
+                                <a href="formularz.html" class="btn btn-primary bg-button">Kup</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <footer class="py-5 bg-footer">
+                <div class="container"><p class="m-0 text-center text-white">Copyright &copy; MC</p></div>
+            </footer>
+
+        </section>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/formularz.js"></script>
+
+    </body>
+</html>

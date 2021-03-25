@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1cd9e0a9-1bb3-41c7-838c-636bcfc74e6d" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1cO87t0LHnTw2ZeU9ymLmLn41zo" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="F:/Studia/Rok II/Semestr IV/Narzędzia internetowe/Laboratoria/Lab11" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Studia\Rok II\Semestr IV\Narzędzia internetowe\Laboratoria\Projekt\js" />
+      <recent name="F:\Studia\Rok II\Semestr IV\Narzędzia internetowe\Laboratoria\Projekt\css" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1cd9e0a9-1bb3-41c7-838c-636bcfc74e6d" name="Default Changelist" comment="" />
+      <created>1590388114639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590388114639</updated>
+      <workItem from="1590388117056" duration="20000" />
+      <workItem from="1590418049084" duration="2941000" />
+      <workItem from="1590423515203" duration="780000" />
+      <workItem from="1590424404379" duration="20762000" />
+      <workItem from="1590472616201" duration="1477000" />
+      <workItem from="1590475739013" duration="7458000" />
+      <workItem from="1590487829483" duration="9213000" />
+      <workItem from="1590497756722" duration="1062000" />
+      <workItem from="1590504216461" duration="8277000" />
+      <workItem from="1590522226426" duration="5496000" />
+      <workItem from="1590567644655" duration="3501000" />
+      <workItem from="1590599246600" duration="14109000" />
+      <workItem from="1590615292664" duration="2008000" />
+      <workItem from="1590648632719" duration="8565000" />
+      <workItem from="1590661891606" duration="595000" />
+      <workItem from="1590668499443" duration="14325000" />
+      <workItem from="1590737106861" duration="16944000" />
+      <workItem from="1590922566059" duration="47000" />
+      <workItem from="1591022884371" duration="10693000" />
+      <workItem from="1591075518349" duration="4231000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="526" y="215" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590425937815">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="526" y="215" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1590425937815" />
+    <state x="548" y="153" key="FileChooserDialogImpl" timestamp="1591078431230">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="548" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1591078431230" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1591075519682">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1591075519682" />
+    <state x="-27" y="830" key="run.anything.popup" timestamp="1590744714751">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="-27" y="830" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1590744714751" />
+    <state x="431" y="145" key="search.everywhere.popup" timestamp="1591032346720">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1591032346720" />
+  </component>
+</project>

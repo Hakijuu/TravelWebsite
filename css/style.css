@@ -1,0 +1,57 @@
+.bg-nav{
+    background-color: #011F26;
+}
+
+.bg-footer{
+    background-color: #118C76;
+    color: #011F26;
+    font-weight: bold;
+}
+
+.bg-slider {
+    background-color: #F2DBAE;
+}
+
+.biuro {
+    color: #024959;
+    background-color: #F2DBAE;
+}
+
+.text-my-own-color{
+    color: #118C76 !important;
+}
+
+.text-my-own-color:hover{
+    color: #25D9B8 !important;
+}
+
+.nav-item:active{
+    color:black !important;
+
+}
+
+.bg-button{
+    background-color: #F2BB16;
+}
+
+.bg-button:hover{
+    background-color: #BFBFBF;
+}
+
+.wejscie{
+    width: 175px;
+}
+
+td{
+    width: 175px;
+}
+
+.wi-container p{
+    font-size: 14px;
+}
+
+@media screen and (max-width:550px) {
+   .wi-container p{
+        font-size: 11px;
+    }
+}
